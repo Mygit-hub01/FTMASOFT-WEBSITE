@@ -1,0 +1,98 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    font-size: 18px;
+    background-image: url("../img/handtab.jpg") ; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 60px;  
+  
+}
+.navbar-brand > img {
+    display: block;
+    width: 25%
+}
+.navbar{min-height: 10px}
+.navbar-inverse{background-image: none}
+.jumbotron{background: none;padding: 0}
+.right{font-family:sans-serif;padding-left: 60px;}
+div.col-md-5.right>h1{padding-top:60px;font-weight: 700;color: #10253f;font-family:Impact, Charcoal, sans-serif;}
+div.col-md-5.right>h2{background-color: rgba(198, 215, 241, 0.8);font-family:Impact, Charcoal, sans-serif;padding:5px 20px;margin: 10px 0 }
+.container-fluid { padding-left: 65px;}
+.navbar-toggle {background-color:#10253f;margin-top: 15px}
+.icon-bar{background-color:#c6d7f1}
+.container{margin: 0;width: 100%;}
+.navbar{text-transform: uppercase;font-weight: bold}
+.navbar img{display: inline;width: 250px}
+a{color:#10253f;}
+.topmagin{margin-top: 20px;}
+.navbar-right>li>a:hover{background:  #c6d7f1}
+[class^="flaticon-"]::before, [class*=" flaticon-"]::before, [class^="flaticon-"]::after, [class*=" flaticon-"]::after {
+    font-size: 60px;    margin-left: 0;     color:#fff;}
+.indent{margin-left: 15px}
+a>span,.footer_two>span{background-color:#788;  border-radius: 50%;  line-height: 0.8;  margin:0.25rem 0; vertical-align: middle;  padding: 0.55em;color:#fff; }
+.col-md-4{width: 30%;margin: 0 1% 2% 2%;padding: 2% 2%;background:rgba(255,255,255,0.6);height: 400px;
+}
+.btn-primary{background-color: #10253f;margin-bottom: 20px;margin-left: 20px}
+legend{font-weight: 700;}
+label{font-weight:300}
+.pad{margin:0 15%;padding:5% 2%;background:rgba(255,255,255,0.6);color:#000}
+h2,h3,legend{color: #10253f;}
+.round-icon { background-color:#10253f ;border-radius: 50%; display: table; height: 100px;
+              margin: 0 auto 1rem;width: 100px;}
+.pad2{margin: 0 5%;background-color:rgba(255,255,255,0.6);padding: 20px;color: #000}
+div.row.text-center{margin-right: 0;margin-left: 0}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color:  #333;
+    padding: 10px 0 0 50px;
+    color: #c6d7f1;
+    background-color: #10253f;
+
+}
+.footer p{font-size: 12px}
+@media only screen and (max-width: 974px) {.floatleftpad{padding-left:0}	
+                                           .footer{text-align: center}
+                                           .col-md-4{width:50%}
+}
+@media only screen and (max-width: 768px) {	.floatleftpad{padding-left:0}
+                                            p,.footer_two{font-size: 20px}	
+                                            .container-fluid { padding-left: 0;}
+                                            .pad{margin:0 5% }
+}
+@media only screen and (max-width: 767px){
+    .navbar>ul>li{border-top: 1px solid #999;padding-left: 1em}
+    .navbar li{border-top: 1px solid #333;padding-left: 1em  }
+                                          .navbar li:last-of-type{border-bottom: 1px solid #333;}
+                                          .col-md-4{width:100%;margin: 0}
+                                          .pad2{margin: 0}
+.pad{margin: 0}
+.btn{margin-left: 20px}
+.right{padding-left: 10px;}
+div.col-md-5.right>h1{padding-top: 30px}
+.col-md-4{margin-bottom: 30px}
+    
+}
+/*If the browser window is smaller than 320px*/
+@media only screen and (max-width: 320px) {
+    .navbar-brand {padding-left: 5px;}
+    .col-md-4{width:100%;}
+.pad{padding-left: 0;padding-right: 0}
+}
+
+
+
+
+
+
+
+
+
